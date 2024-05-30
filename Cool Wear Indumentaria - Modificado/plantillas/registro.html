@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CoolWear</title>
+        <link rel="stylesheet" href="../estatico/CSS/style.css">  
+    </head> 
+
+<body>
+<!-- Encabezado -->
+<header>
+    <div>
+      <img width="80" height="80" src="https://img.icons8.com/dotty/80/workday.png" alt="coolwear", alt="logo">
+            <strong><span id="fuente">"COOL WEAR"</span></strong>
+            <h2 id="titulo">ROPA URBANA Y DEPORTIVA A TU MEDIDA</h2>
+    </div>
+  </header>  
+  <nav class="menubar"> 
+    <a href="../index.html"><strong>Inicio</strong></a><br>
+    <a href="catalogo.html"><strong>Catalogo</strong></a><br>
+    <a href="ofertas.html"><strong>Ofertas</strong></a>
+  </nav>
+  
+    <!-- Contenido -->
+  <main>  
+    <section>
+      <h1>Registro</h1>
+          <div class="form-control">
+              <label ><strong>Nombre</strong></label>
+              <input type="text" id="firstname" name="firstname" required placeholder="su nombre completo"><br>
+          </div>
+          <div class="error" id="error-firstname"></div>
+
+          <div class="form-control">
+              <label ><strong>Apellido</strong></label>
+              <input type="text" id="lastname" name="lastname" required placeholder="su apellido"><br>
+          </div>
+          <div class="error" id="error-lastname"></div>
+
+          <div class="form-control">
+              <label ><strong>Email</strong></label>
+              <input type="email" id="email" name="email" required placeholder="ejemplo@ejemplo.com"><br>
+          </div>
+          <div class="error" id="error-email"></div>
+
+          <div class="form-control">
+              <label><strong>F. Nac.</strong></label>
+              <input type="date" id="birthdate" name="birthdate" required placeholder="  /  /    ">
+          </div>
+          <div class="error" id="birthdate"></div>
+          
+          <br>
+          <div class="boton">
+              <button type="submit"><strong>Enviar</strong</button> 
+          </div>
+    </section>  
+    
+    <div id="localizacion">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.4200643178597!2d-58.39545242578136!3d-34.59353797295796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabda17c471b%3A0x362ddb23c957ab4d!2sAv.%20Callao%201325%2C%20C1021%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1716838137676!5m2!1ses!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </main>
+    <!-- pie -->
+  <footer >
+    <img width="80" height="80" src="https://img.icons8.com/dotty/80/workday.png" alt="coolwear", alt="logo">
+      <span><strong>COOL WEAR SA</strong></span>
+      <address><strong></m>Callao 1325- Buenos Aires. Argentina</strong></address>
+      <small><strong>mail: coolwear@central  -  tel. 54 9 11 555566</strong></small>
+  </footer>     
+</body>
+</html>
